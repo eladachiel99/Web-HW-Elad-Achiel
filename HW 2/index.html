@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elad Achiel</title>
+
+    <!-- Google Fonts: Playfair Display for headings, Poppins for regular text -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== Header: navigation + main intro ===== -->
+    <header id="top">
+
+        <nav class="navbar">
+            <div class="logo">EA</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <!-- הכנס כאן נתיב לתמונה שלך (תמונת פנים / חצי גוף) -->
+            <img id="profile-img" src="images/me.jpeg" alt="Portrait of Elad Achiel smiling">
+            <h1>I'm Elad.</h1>
+            <h2 class="subtitle">an Information Systems student.</h2>
+            <p class="hero-text">Final year student, ready for the next big step.</p>
+        </div>
+
+    </header>
+
+    <!-- ===== Main content ===== -->
+    <main>
+
+        <!-- About section -->
+        <section id="about" class="about">
+            <!-- הכנס כאן נתיב לתמונה של לפטופ / קוד -->
+            <img id="laptop-img" src="images/laptop.png" alt="Illustration of a laptop with code on the screen">
+            <div class="about-text">
+                <h2>Hello.</h2>
+                <p>
+                    I'm a <strong>third-year Information Systems Management student</strong>,
+                    and this is my final year of the degree. Now it's time to take what I've learned
+                    and start my first real job in the tech world.
+                </p>
+                <p>
+                    I love building things on the web, meeting new people and exploring new places.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Skills and languages section -->
+        <section id="skills">
+            <h2>Skills &amp; Languages</h2>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Hebrew <span class="level">Native</span></li>
+                        <li>English <span class="level">Fluent</span></li>
+                        <li>Spanish <span class="level">Fluent</span></li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Working under pressure</li>
+                        <li>Customer service</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Experience section -->
+        <section id="experience">
+            <h2>Experience &amp; Education</h2>
+
+            <div class="experience-row">
+                <table class="experience-table">
+                    <tr>
+                        <th>Role</th>
+                        <th>Place</th>
+                        <th>Years</th>
+                    </tr>
+                    <tr>
+                        <td>Bartender</td>
+                        <td>Humongous</td>
+                        <td>2023 – Present</td>
+                    </tr>
+                    <tr>
+                        <td>Student</td>
+                        <td>B.A. Information Systems Management</td>
+                        <td>3rd (final) year</td>
+                    </tr>
+                </table>
+
+                <!-- הכנס כאן נתיב לתמונה של בר / קוקטייל -->
+                <div class="bar-gallery">
+                    <img class="bar-img bar-img-1" src="images/drink.avif" alt="A cocktail being prepared behind a bar">
+                    <img class="bar-img bar-img-2" src="images/student.png" alt="Portrait of a student">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Hobbies section -->
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+
+            <div class="cards-grid">
+                <article class="card hobby-card">
+                    <!-- הכנס כאן נתיב לתמונה של טניס -->
+                    <img class="hobby-img" src="images/Tennis.jpg" alt="Tennis racket and ball on a court">
+                    <h3>Tennis</h3>
+                    <p>I play tennis as an amateur. It keeps me active and focused.</p>
+                </article>
+
+                <article class="card hobby-card">
+                    <!-- הכנס כאן נתיב לתמונה של קמפינג (אוהל / מדורה) -->
+                    <img class="hobby-img" src="images/camping.avif" alt="A tent next to a campfire at night">
+                    <h3>Camping</h3>
+                    <p>Nothing beats a night under the stars with good friends.</p>
+                </article>
+
+                <article class="card hobby-card">
+                    <!-- הכנס כאן נתיב לתמונה של טיולים (נוף / תרמיל) -->
+                    <img class="hobby-img" src="images/hike.jpg" alt="A hiker with a backpack looking at a mountain view">
+                    <h3>Traveling</h3>
+                    <p>I love hiking across Israel and discovering new places around the world.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer: contact ===== -->
+    <footer id="contact">
+        <h2>Get In Touch</h2>
+        <p class="contact-message">
+            Looking for a motivated junior who learns fast? I'd be happy to talk.
+        </p>
+
+        <!-- Visual button only - does not lead anywhere -->
+        <button class="btn">Contact Me</button>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/elad-achiel-9515353b1/" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/elad.achiel/?locale=he_IL" target="_blank">Facebook</a>
+        </div>
+
+        <p class="copyright">© 2026 Elad Achiel</p>
+    </footer>
+
+</body>
+</html>
